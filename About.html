@@ -130,92 +130,87 @@
 
         <section class="animate-on-scroll stagger-3">
             <div class="bg-surface rounded-2xl shadow-card p-8">
-                <h2 class="text-2xl font-inter font-bold text-primary mb-8 text-center">Experience</h2>
+                <h2 class="text-fluid-2xl font-inter font-bold text-primary mb-8 text-center">Experience</h2>
                 
 
                 <!-------------------------- Technical Skills ----------------------------->
                 <div class="grid md:grid-cols-2 gap-4">
                     
-                    <div>
-                        <h3 class="text-2xl font-inter font-bold text-primary mb-6 flex items-center">
-                            <svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/>
-                            </svg>
-                            Academic
-                        </h3>
-                        <div class="space-y-4">
-                            <div class="skill-item">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-lg font-medium text-text-primary flex items-center gap-1">
-                                        <img src="/images/python.webp" class="w-4 h-4 inline-block" />
-                                        Python
-                                    </span>
-                                    <!-- <span class="text-sm text-text-secondary">95%</span> -->
-                                </div>
-                                <div class="w-full bg-primary-100 rounded-full h-2">
-                                    <div class="bg-accent h-2 rounded-full skill-bar" data-width="90%"></div>
-                                </div>
-                            </div>
+                    <div class="lg:col-span-5 animate-on-scroll stagger-2">
+                        <div class="bg-surface rounded-2xl shadow-card p-6">
+                            <h2 class="text-xl font-inter font-semibold text-primary mb-6 flex items-center">
+                                <svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                </svg>
+                                Recent Experience
+                            </h2>
                             
-                            <div class="skill-item">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-lg font-medium text-text-primary flex items-center gap-1">
-                                        <img src="/images/c++.png" alt="Docker icon" class="w-4 h-4 inline-block" />
-                                        C++
-                                    </span>
-                                    <!-- <span class="text-sm text-text-secondary">85%</span> -->
+                            <div class="space-y-6" id="timeline">
+                                <div class="timeline-item relative pl-8 pb-6 border-l-2 border-primary-200 cursor-pointer hover:border-accent transition-colors duration-300" data-expanded="false">
+                                    <div class="absolute -left-2 top-0 w-4 h-4 bg-accent rounded-full border-2 border-surface"></div>
+                                    <div class="timeline-header">
+                                        <h3 class="font-inter font-semibold text-primary">Artificial Intelligence Engineer</h3>
+                                        <p class="text-sm text-text-secondary">March 2024 - June 2025</p>
+                                    </div>
+                                    <div class="timeline-content mt-2 max-h-0 overflow-hidden transition-all duration-500">
+                                        <p class="text-sm text-text-secondary leading-relaxed">
+                                            Developed a RAG-based QA chatbot using LangChain to accurately answer user queries. Optimized existing object detection model and similarity search algortithm
+                                            to improve accuracy of components detection in construction plans.
+                                        </p>
+                                        <div class="flex flex-wrap gap-1 mt-3">
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Computer Vision</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">RAG</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">RAG</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Python</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">LangChain</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">MLOPs</span> 
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">AWS</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">GitHub</span>                          
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="w-full bg-primary-100 rounded-full h-2">
-                                    <div class="bg-accent h-2 rounded-full skill-bar" data-width="85%"></div>
+                                
+                                <div class="timeline-item relative pl-8 pb-6 border-l-2 border-primary-200 cursor-pointer hover:border-accent transition-colors duration-300" data-expanded="false">
+                                    <div class="absolute -left-2 top-0 w-4 h-4 bg-primary-400 rounded-full border-2 border-surface"></div>
+                                    <div class="timeline-header">
+                                        <h3 class="font-inter font-semibold text-primary">Lecturer and Researcher</h3>
+                                        <p class="text-sm text-text-secondary">COMSATS • September 2017 - July. 2023</p>
+                                    </div>
+                                    <div class="timeline-content mt-2 max-h-0 overflow-hidden transition-all duration-500">
+                                        <p class="text-sm text-text-secondary leading-relaxed">
+                                        </p>
+                                        <div class="flex flex-wrap gap-1 mt-3">
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Basic and Advance Programming (C/C++/Python)</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Introduction to Robotics</span>
+                                            <!-- <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Object Oriented Programming</span> -->
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Data Structures and Algorithms</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Artificial Intelligence & Machine Learning</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Computer Vision</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Operating System Concepts</span>                                    
+                                            
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            
-                            <div class="skill-item">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-lg font-medium text-text-primary flex items-center gap-1">
-                                        <img src="/images/matlab.gif" alt="Docker icon" class="w-4 h-4 inline-block" />
-                                        Matlab
-                                    </span>
-                                    <!-- <span class="text-sm text-text-secondary">80%</span> -->
-                                </div>
-                                <div class="w-full bg-primary-100 rounded-full h-2">
-                                    <div class="bg-accent h-2 rounded-full skill-bar" data-width="70%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-lg font-medium text-text-primary flex items-center gap-1">
-                                        <img src="/images/dsa.png" alt="Docker icon" class="w-4 h-4 inline-block" />
-                                        Data Structures and Algorithms
-                                    </span>
-                                    <!-- <span class="text-sm text-text-secondary">80%</span> -->
-                                </div>
-                                <div class="w-full bg-primary-100 rounded-full h-2">
-                                    <div class="bg-accent h-2 rounded-full skill-bar" data-width="95%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-lg font-medium text-text-primary flex items-center gap-1">
-                                        <img src="/images/linux.png" alt="Docker icon" class="w-4 h-4 inline-block" />
-                                        Linux
-                                    </span>
-                                    <!-- <span class="text-sm text-text-secondary">80%</span> -->
-                                </div>
-                                <div class="w-full bg-primary-100 rounded-full h-2">
-                                    <div class="bg-accent h-2 rounded-full skill-bar" data-width="90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-lg font-medium text-text-primary flex items-center gap-1">
-                                        <img src="/images/ros.png" alt="Docker icon" class="w-4 h-4 inline-block" />
-                                        ROS
-                                    </span>
-                                    <!-- <span class="text-sm text-text-secondary">80%</span> -->
-                                </div>
-                                <div class="w-full bg-primary-100 rounded-full h-2">
-                                    <div class="bg-accent h-2 rounded-full skill-bar" data-width="75%"></div>
+                                
+                                <div class="timeline-item relative pl-8 border-l-2 border-primary-200 cursor-pointer hover:border-accent transition-colors duration-300" data-expanded="false">
+                                    <div class="absolute -left-2 top-0 w-4 h-4 bg-primary-400 rounded-full border-2 border-surface"></div>
+                                    <div class="timeline-header">
+                                        <h3 class="font-inter font-semibold text-primary">Lecturer and Coordinator</h3>
+                                        <p class="text-sm text-text-secondary">ICBS • July 2015 - Sept. 2017</p>
+                                    </div>
+                                    <div class="timeline-content mt-2 max-h-0 overflow-hidden transition-all duration-500">
+                                        <p class="text-sm text-text-secondary leading-relaxed">
+                                            
+                                        </p>
+                                        <div class="flex flex-wrap gap-1 mt-3">
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Introduction to Robotics</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Programming Fundamentals</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Data Structures and Algorithms</span>                                 
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Artificial Intelligence</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Digital Logic Design</span>
+                                            <span class="px-2 py-1 bg-accent text-white text-sm rounded-full">Probability and Random Process</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
