@@ -1898,6 +1898,14 @@ h1, h2, h3, h4, h5, h6 {
     grid-column: span 7 / span 7;
   }
 
+  .lg\:col-span-9{
+    grid-column: span 9 / span 9;
+  }
+
+  .lg\:col-span-12{
+    grid-column: span 12 / span 12;
+  }
+
   .lg\:w-32{
     width: 8rem;
   }
